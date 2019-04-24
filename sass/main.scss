@@ -44,8 +44,8 @@ p {
   background: gray;
   background-image: url('../img/hero.jpeg');
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
   background-position: center;
+  background-size: cover;
   color: white;
 
   .title {
@@ -60,6 +60,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
 
   h1,
@@ -70,6 +71,16 @@ p {
 
   a {
     color: white;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .hero {
+    background-image: url('../img/image1.jpeg');
+
+    h1 {
+      font-size: 3.4rem;
+    }
   }
 }
 
