@@ -42,6 +42,10 @@ p {
   }
 }
 
+.button {
+  background-color: dodgerblue;
+}
+
 .hero {
   width: 100%;
   height: 100vh;
@@ -124,12 +128,12 @@ footer {
     'bio image';
 }
 
-#name {
+.name {
   grid-area: name;
   text-align: center;
 }
 
-#bio {
+.bio-text {
   grid-area: bio;
   height: 100%;
   display: flex;
@@ -137,7 +141,7 @@ footer {
   justify-content: center;
 }
 
-#image {
+.image {
   grid-area: image;
   width: 100%;
   border: 1px solid white;
